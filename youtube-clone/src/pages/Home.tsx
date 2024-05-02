@@ -1,6 +1,7 @@
 import React from 'react'
 import {Header} from "@/components/Header";
 import SideBar from '@/components/SideBar';
+import VideoCard from '@/components/VideoCard';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <Header />
             <SideBar />
+            <VideoCard />
         </div>
     )
 }
